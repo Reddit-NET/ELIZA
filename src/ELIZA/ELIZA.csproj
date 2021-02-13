@@ -11,6 +11,7 @@
     <RepositoryUrl>https://github.com/Reddit-NET/ELIZA</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Reddit.NET Reddit ELIZA ELIZA.NET chat chatbot ai nlp</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,10 +26,7 @@
 
   <ItemGroup>
     <PackageReference Include="ELIZA.NET" Version="1.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="E:\repos\Reddit.NET\src\Reddit.NET\Reddit.NET.csproj" />
+    <PackageReference Include="Reddit" Version="1.4.0" />
   </ItemGroup>
 
 </Project>
