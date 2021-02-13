@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DOCTOR.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="DOCTOR.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ELIZA.NET" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="E:\repos\Reddit.NET\src\Reddit.NET\Reddit.NET.csproj" />
+  </ItemGroup>
+
+</Project>
