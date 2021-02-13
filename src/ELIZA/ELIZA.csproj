@@ -3,6 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Kris Craig</Authors>
+    <Product>Reddit.NET</Product>
+    <Copyright>Copyright (C) 2021 by Kris Craig</Copyright>
+    <Description>A classic ELIZA chatbot that monitors and responds to a Reddit user's private messages.</Description>
+    <PackageProjectUrl>https://github.com/Reddit-NET/ELIZA</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Reddit-NET/ELIZA</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Reddit.NET Reddit ELIZA ELIZA.NET chat chatbot ai nlp</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
